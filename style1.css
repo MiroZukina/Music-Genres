@@ -48,8 +48,7 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-evenly;
-    padding-top: 10px;
-    padding-left: 60px;
+    padding-top:5px 20px 20px 20px;
   }
   .div p{ height: 100px;
     width: 400px;
