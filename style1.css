@@ -1,5 +1,6 @@
-h2{
-    text-align: center;
+body{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 p{
     margin: 3px;
@@ -10,11 +11,27 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-    border-radius:  0px 0px 15px 15px;
-    
   }
   
+  li {
+    float: left;
+  }
+
+  header{
+    text-align: center;
+  }
+  .logo img{
+    height: 50px;
+    width: 50px;
+  }
+  .logo{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    border-radius:  0px 0px 15px 15px;
+  }
 
 
   .li{
